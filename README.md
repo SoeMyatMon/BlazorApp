@@ -10,4 +10,5 @@ install NETCORE.SQLSERVER & NETCORE.TOOL
      {
              
      }
+     public DbSet<Person> Person { get; set; }
  }
